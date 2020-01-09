@@ -1,5 +1,5 @@
 const hello = (greeting) => {
-  return '${greeting}, hello'
+  return `${greeting}, hello`
 }
 
 export { hello }
