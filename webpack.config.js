@@ -1,6 +1,7 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  mode: 'development',
   module: {
     rules: [
       {
@@ -21,3 +22,9 @@ module.exports = {
     }),
   ]
 }
+
+let date
+
+d = new Date ().getTime();
+
+console.log(d);
